@@ -1,0 +1,3 @@
+:HL["/NEXI-port/_next/static/css/c25b09996ab3c3ff.css","style"]
+:HL["/NEXI-port/_next/static/css/31ce10884145ae1d.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"try-now","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Xn2cLsRcLMpVIcCNaaH6D"}
