@@ -36,6 +36,12 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Add App Router navigation fallbacks
+        run: |
+          cp out/app/index.txt out/app.txt
+          cp out/login/index.txt out/login.txt
+          cp out/try-now/index.txt out/try-now.txt
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
