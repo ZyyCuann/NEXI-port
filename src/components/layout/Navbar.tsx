@@ -78,6 +78,12 @@ export function Navbar() {
         {/* Right actions */}
         <div className="flex items-center gap-3">
           <Link
+            href="/login"
+            className="hidden sm:inline-flex h-10 items-center justify-center rounded-lg border border-slate-200/80 bg-white/70 px-4 text-sm font-semibold text-slate-700 transition-all duration-300 hover:-translate-y-0.5 hover:border-blue-500/30 hover:text-blue-600 dark:border-white/10 dark:bg-white/[0.04] dark:text-slate-200 dark:hover:border-cyan-400/30 dark:hover:text-cyan-300"
+          >
+            Login
+          </Link>
+          <Link
             href="/try-now"
             className="hidden sm:inline-flex h-10 items-center justify-center rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 px-4 text-sm font-semibold text-white shadow-md shadow-blue-500/10 transition-all duration-300 hover:-translate-y-0.5 hover:from-blue-500 hover:to-cyan-400 hover:shadow-cyan-500/20"
           >
@@ -150,6 +156,13 @@ export function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200/60 dark:border-white/10 bg-white/95 dark:bg-[#030712]/95 backdrop-blur-md shadow-lg">
           <div className="px-6 py-4 space-y-2 flex flex-col">
+            <Link
+              href="/login"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full rounded-lg border border-slate-200/80 bg-white/70 px-4 py-3 text-left text-base font-semibold text-slate-700 transition-all dark:border-white/10 dark:bg-white/[0.04] dark:text-slate-200"
+            >
+              Login Prototype
+            </Link>
             <Link
               href="/try-now"
               onClick={() => setMobileMenuOpen(false)}

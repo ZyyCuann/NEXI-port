@@ -367,6 +367,12 @@ export default function HomeClient() {
                   >
                     Try Now <ArrowRight className="w-4 h-4" />
                   </Link>
+                  <Link
+                    href="/login"
+                    className="px-6 py-3.5 bg-white hover:bg-slate-50 dark:bg-white/5 dark:hover:bg-white/10 text-slate-900 dark:text-white font-semibold rounded-xl transition-all duration-300 border border-slate-200/60 dark:border-white/10 hover:border-blue-500/30 dark:hover:border-cyan-400/30 cursor-pointer hover:-translate-y-0.5 shadow-sm flex items-center gap-2"
+                  >
+                    Login Prototype <ArrowRight className="w-4 h-4" />
+                  </Link>
                   <button 
                     onClick={() => scrollToSection('demo')}
                     className="px-6 py-3.5 bg-white hover:bg-slate-50 dark:bg-white/5 dark:hover:bg-white/10 text-slate-900 dark:text-white font-semibold rounded-xl transition-all duration-300 border border-slate-200/60 dark:border-white/10 hover:border-slate-300 dark:hover:border-white/20 cursor-pointer hover:-translate-y-0.5 shadow-sm"

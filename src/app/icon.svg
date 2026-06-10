@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="left-pillar" x1="0" y1="0" x2="0.82" y2="1">
+      <stop offset="0" stop-color="#16c7ee"/>
+      <stop offset="0.52" stop-color="#078af0"/>
+      <stop offset="1" stop-color="#1553e8"/>
+    </linearGradient>
+    <linearGradient id="right-pillar" x1="0.2" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16c7ee"/>
+      <stop offset="0.52" stop-color="#078af0"/>
+      <stop offset="1" stop-color="#1553e8"/>
+    </linearGradient>
+    <linearGradient id="marker" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#ffd12a"/>
+      <stop offset="1" stop-color="#f5a900"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#left-pillar)" d="M91 76h92v141c0 83-18 145-54 187-22 26-48 40-78 43h126c42-55 63-132 63-230V76H91Z"/>
+  <path fill="url(#right-pillar)" d="M421 76h-92v141c0 83 18 145 54 187 22 26 48 40 78 43H335c-42-55-63-132-63-230V76h149Z"/>
+  <path fill="url(#marker)" d="m256 346 48 101h-96l48-101Z"/>
+</svg>
